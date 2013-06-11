@@ -1,0 +1,10 @@
+Ogre & Bullet thing for my blog
+
+This is a demo I wrote that uses Ogre and Bullet to move a character around with WASD movement. It's meant to be a template for 3D applications that use the MVC pattern and character movement. Nothing too serious.
+
+If you have automake, you should be able to build with the following commands:
+autoreconf -i
+./configure
+make
+
+If not, this code relies on the Ogre and Bullet libraries, and also good luck.
